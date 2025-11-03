@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบล็อกอิน</title>
+
+    <link rel="stylesheet" href="style.css"> <!--เชื่อมโยงไฟล์ css-->
+</head>
+<body>
+    <div class="container"> <h1>เข้าสู่ระบบ</h1> <!--สร้างกล่องการเข้าสู่ระบบ-->
+
+        <form action="/login" method="post">
+
+            <label for="email" >อีเมล:</label><!--สร้างกล่องข้อความ-->
+            <input type="email" id="email" name="email" placeholder="อีเมล" required>
+
+            <label for="password" >รหัสผ่าน:</label><!--สร้างกล่องข้อความ-->
+            <input type="password" id="password" name="password" minlength="8" maxlength="20" placeholder="รหัสผ่าน" required>
+
+            <small>รหัสผ่านต้องมี 8-20 ตัวอักษร</small><!--ข้อความขนาดเล็ก-->
+
+            <button type="submit">เข้าสู่ระบบ</button>
+        </form>
+
+        <p>
+            <a href="signup.html">สมัครสมาชิก</a><!--เชื่อมลิ้งสมัครสมาชิก--><br>
+            <a href="forget-password.html">ลืมรหัสผ่าน</a><!--เชื่อมลิ้งลืมรหัสผ่าน-->
+
+        </p>
+    </div>
+</body>
+</html>
