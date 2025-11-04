@@ -1,71 +1,10 @@
- body {
-    /* ส่วนกำหนดรูปแบบสำหรับแท็ก <body> (ทั้งหน้าเว็บ) */
+body {
     font-family: sans-serif;
-    /* ใช้ชุดฟอนต์ที่ไม่มีเชิง */
-    margin: 0;
-    /* ลบขอบด้านนอกเริ่มต้นของ body ทั้งหมด */
-    display: flex;
-    /* ใช้ Flexbox ในการจัดวางองค์ประกอบลูก */
-    justify-content: center;
-    /* จัดองค์ประกอบลูกให้อยู่กึ่งกลางตามแนวนอน (แกนหลัก) */
-    align-items: center;
-    /* จัดองค์ประกอบลูกให้อยู่กึ่งกลางตามแนวตั้ง (แกนรอง) */
-    min-height: 100vh;
-    /* กำหนดความสูงขั้นต่ำให้เต็มความสูงหน้าจอที่มองเห็น (100% Viewport Height) */
     background-image: url('https://scontent.fbkk14-1.fna.fbcdn.net/v/t39.30808-6/524733114_754034103978885_6450351291096403350_n.png?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGrklZMtVlHF31nN0dg8sP0oZ1D28Vj9_ChnUPbxWP38C0Mw61RlIis1Ewua_4j8bAiDwL_a2KzX42pDeykssQJ&_nc_ohc=SLId4lZ4o8sQ7kNvwH2lzXz&_nc_oc=AdlIHopyv2kL4v6vtneSUbjaiRDGJI_AuAWbS-Ac8966oGa5pPNhBViF_gcZ4MjDmFM&_nc_zt=23&_nc_ht=scontent.fbkk14-1.fna&_nc_gid=OXmR-ASWA4CPbP2EBUZKwA&oh=00_Afj9WKZfJbYTn4kakF9nFG7tN8VviSu3NvbityfKlOb_vA&oe=690D5F6E');
 }
 
-.container {
-    /* ส่วนกำหนดรูปแบบสำหรับกล่องที่มี class เป็น container */
-    padding: 100px;
-    /* กำหนดขอบด้านใน (padding) 100 พิกเซล รอบเนื้อหาในกล่อง (สังเกต: ค่านี้สูงกว่าเดิมมาก) */
-    background: white;
-    /* กำหนดสีพื้นหลังของกล่องเป็นสีขาว */
-    width: 300px;
-    /* กำหนดความกว้างคงที่ของกล่องเป็น 300 พิกเซล */
-    text-align: center;
-    /* จัดข้อความและองค์ประกอบแบบอินไลน์ทั้งหมดในกล่องให้อยู่กึ่งกลาง */
-}
-
-input {
-    /* ส่วนกำหนดรูปแบบสำหรับแท็ก input ทั้งหมด (ช่องกรอกข้อมูล) */
-    display: block;
-    /* ทำให้ input เป็นองค์ประกอบแบบบล็อก (ขึ้นบรรทัดใหม่และกินพื้นที่เต็มความกว้าง) */
-    margin: 10px auto;
-    /* กำหนดขอบนอกบน/ล่าง 10px และซ้าย/ขวาเป็น auto เพื่อจัดให้อยู่กึ่งกลาง */
-    padding: 10px;
-    /* กำหนดขอบด้านใน 10 พิกเซล */
-    width: 100%;
-    /* กำหนดความกว้างของช่องรับข้อมูลเป็น 90% ขององค์ประกอบแม่ */
-    box-sizing: border-box;
-    /* กำหนดให้ padding และ border ถูกรวมอยู่ในความกว้างที่กำหนด */
-}
-
-button {
-    /* ส่วนกำหนดรูปแบบสำหรับแท็ก button ทั้งหมด (ปุ่ม) */
-    padding: 10px 15px;
-    /* กำหนดขอบด้านใน: บน/ล่าง 10px, ซ้าย/ขวา 15px */
-    background: #007bff;
-    /* กำหนดสีพื้นหลังเป็นสีน้ำเงิน */
-    color: white;
-    /* กำหนดสีตัวอักษรเป็นสีขาว */
-    border: none;
-    /* ลบเส้นขอบรอบปุ่มออก */
-    cursor: pointer;
-    /* เปลี่ยนรูปร่างเคอร์เซอร์เป็นรูปมือเมื่อชี้ */
-    width: 90%;
-    /* กำหนดความกว้างของปุ่มเป็น 90% ขององค์ประกอบแม่ */
-    margin-top: 10px;
-    /* กำหนดขอบนอกด้านบน 10 พิกเซล */
-}
 
 small {
-    /* ส่วนกำหนดรูปแบบสำหรับแท็ก small (ข้อความเล็กๆ) */
     color: gray;
-    /* กำหนดสีตัวอักษรเป็นสีเทา */
     display: block;
-    /* ทำให้ข้อความขึ้นบรรทัดใหม่และกินพื้นที่เต็มความกว้าง */
-    margin-bottom: 10px;
-    /* กำหนดขอบนอกด้านล่าง 10 พิกเซล */
 }
-
