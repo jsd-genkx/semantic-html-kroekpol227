@@ -1,10 +1,57 @@
 body {
     font-family: sans-serif;
-    background-image: url('https://scontent.fbkk14-1.fna.fbcdn.net/v/t39.30808-6/524733114_754034103978885_6450351291096403350_n.png?_nc_cat=106&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGrklZMtVlHF31nN0dg8sP0oZ1D28Vj9_ChnUPbxWP38C0Mw61RlIis1Ewua_4j8bAiDwL_a2KzX42pDeykssQJ&_nc_ohc=SLId4lZ4o8sQ7kNvwH2lzXz&_nc_oc=AdlIHopyv2kL4v6vtneSUbjaiRDGJI_AuAWbS-Ac8966oGa5pPNhBViF_gcZ4MjDmFM&_nc_zt=23&_nc_ht=scontent.fbkk14-1.fna&_nc_gid=OXmR-ASWA4CPbP2EBUZKwA&oh=00_Afj9WKZfJbYTn4kakF9nFG7tN8VviSu3NvbityfKlOb_vA&oe=690D5F6E');
+    background-image: url('imge/jsd.png');
+     display: flex;
+    justify-content: center; /* จัดกึ่งกลางแนวนอน */
+    align-items: center;   /* จัดกึ่งกลางแนวตั้ง */
 }
 
 
 small {
     color: gray;
     display: block;
+}
+
+.container{
+   display: flex;
+  justify-content: center; /* จัดกึ่งกลางแนวนอน */
+  align-items: center;   /* จัดกึ่งกลางแนวตั้ง */
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  border: 1px solid rgb(255, 255, 255); 
+  background-color: rgb(131, 196, 237);
+  margin-top: 100px;
+  font-family: serif;
+
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     padding: 30px;
+     font-size: x-large;
+      gap: 20px;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* เพิ่มขอบมนให้อินพุต */
+    font-size: medium;
+}
+
+
+a{
+    font-size:x-large;
+}
+
+button:hover {
+    background-color: #66a7ed;
+}
+
+button{
+     cursor: pointer;
+      font-size:large;
 }
